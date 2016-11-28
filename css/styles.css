@@ -1,0 +1,162 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "Segoe UI Light", sans-serif;
+}
+
+/* WRAPPER */
+.wrapper {
+	min-height: 100%;
+}
+
+.wrapper:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+/* HEADER */
+.header {
+	height: 100px;
+	box-shadow: 0 0 20px #1a1a1a;
+}
+
+.header:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.brand_name {
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+}
+
+.brand_name_link {
+	text-decoration: none;
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 1px 2px #cccccc, 1px 0 2px #000000;
+}
+
+.nav_menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.menu {
+	display: flex;
+
+}
+.menu__list {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu__link {
+	text-decoration: none;
+	font-size: 20px;
+	color: #323232;
+}
+
+.menu__link:hover {
+	color: #b2b2b2;
+}
+
+/* ASIDE */
+.sidebar {
+	float: left;
+	width: 300px;
+	border-right: 1px solid #ccc;
+}
+
+.sidebar_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar_list_item {
+	margin-bottom: 10px;
+}
+
+.sidebar_link {
+	padding: 5px 20px;
+	display: flex;
+	text-decoration: none;
+	color:  #323232;
+	transition: background linear .1s;
+}
+
+.sidebar_link:hover {
+	background: #f2f2f2;
+}
+
+/* MAIN PART */
+.main_content {
+	padding: 10px 10px 100px 10px;
+	margin-left: 300px;
+}
+
+.article_post {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.post_heading {
+	margin: 0;
+}
+
+.post_heading_link {
+	text-decoration: none;
+	color:  #323232;
+}
+
+.post_heading_link:hover {
+	text-decoration: underline;
+}
+
+.post_content {
+	overflow: auto;
+	margin: 10px 0;
+}
+
+.post_image {
+	float: left;
+	width: 160px;
+}
+
+.post_text {
+	margin-top: 0;
+}
+.post_footer {
+	display: flex;
+	justify-content: space-between;
+	color: #cecece;
+	font-size: 10px;
+}
+
+/* FOOTER */
+.footer {
+	height: 100px;
+	margin-top: -100px;
+	border-top: 1px solid #ccc;
+	clear: both;
+}
+
+.footer_text {
+	text-align: center;
+	font-size: 16px;
+}
